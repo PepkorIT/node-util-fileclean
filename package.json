@@ -1,0 +1,35 @@
+{
+  "name": "node-util-fileclean",
+  "version": "1.0.0",
+  "description": "Basic nodejs utility script for cleaning up old files via a glob",
+  "main": "index.js",
+  "bin": {
+    "node-util-fileclean": "./bin/fileclean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PepkorIT/node-util-fileclean.git"
+  },
+  "keywords": [
+    "cleanup",
+    "file",
+    "clean",
+    "delete"
+  ],
+  "author": "Jonathan Beech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PepkorIT/node-util-fileclean/issues"
+  },
+  "homepage": "https://github.com/PepkorIT/node-util-fileclean#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "globby": "^6.1.0",
+    "minimist": "^1.2.0",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "typescript": "^2.3.3"
+  }
+}
