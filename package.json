@@ -16,7 +16,7 @@
     "clean",
     "delete"
   ],
-  "author": "Jonathan Beech",
+  "author": "PepkorIT",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PepkorIT/node-util-fileclean/issues"
