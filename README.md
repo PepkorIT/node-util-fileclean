@@ -34,9 +34,8 @@ The following is a list of the flags that the script supports.
 > than the supplied value will be deleted. Only 1 is supported at a time.
 
 `--maxFiles=100`
-This flag will set the total number of files that is kept.
 
-> Blockquote
+> This flag will set the total number of files that is kept.
 
 `--dryRun=false`
 
