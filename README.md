@@ -30,7 +30,7 @@ The following is a list of the flags that the script supports.
 
 `--maxAgeDays=1` `--maxAgeHours=1` `--maxAgeMins=1`
 
-> The following is a list of the time flags that are possible. If you supply a time flag files older 
+> The above is a list of the time flags that are possible. If you supply a time flag files older 
 > than the supplied value will be deleted. Only 1 is supported at a time.
 
 `--maxFiles=100`
