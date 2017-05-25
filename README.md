@@ -22,15 +22,25 @@ Note the flag: --dryRun=false, without this flag set to false the script will si
 ### Script Flags
 The following is a list of the flags that the script supports. 
 
-`--globs="./reports/*.html,./output/**/*"`  
-This flag is always required as it identifies all of the files in question. This uses [globby](https://github.com/sindresorhus/globby) under the hood so please view documentation there to see all options.
+`--globs="./reports/*.html,./output/**/*"`
 
-`--maxAgeDays=1` `--maxAgeHours=1` `--maxAgeMins=1`  
-The following is a list of the time flags that are possible. If you supply a time flag files older than the supplied value will be deleted. Only 1 is supported at a time.
+> This flag is always required as it identifies all of the files in question. 
+> Globs are separated using commas, no spaces.
+> This uses [globby](https://github.com/sindresorhus/globby) under the hood so please view documentation there to see all options.
 
-`--maxFiles=100`  
+`--maxAgeDays=1` `--maxAgeHours=1` `--maxAgeMins=1`
+
+> The following is a list of the time flags that are possible. If you supply a time flag files older 
+> than the supplied value will be deleted. Only 1 is supported at a time.
+
+`--maxFiles=100`
 This flag will set the total number of files that is kept.
 
-`--dryRun=false`  
-This flag is optional and will default to true. When set to true no files will be deleted so it can give you a chance to manually check the result. When set to false the files will be deleted.  
-The script will always output a list of all the files it has found and sorted for your review. X prefix means delete, O prefix means keep.
+> Blockquote
+
+`--dryRun=false`
+
+> This flag is optional and will default to true. When set to true no files will be deleted so it can 
+> give you a chance to manually check the result. When set to false the files will be deleted.   
+> The script will always output a list of all the files it has found and sorted for your review. 
+> X prefix means delete, O prefix means keep.
